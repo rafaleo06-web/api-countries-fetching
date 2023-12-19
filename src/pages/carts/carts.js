@@ -107,7 +107,7 @@ export const Carts = (props) => {
     <div className="Carts">
       <div className="header">
         <h1>Fetching Data Using Hook</h1>
-        <h1>Calling API</h1>
+        <h1>Calling API Countries</h1>
         <p>There are {data.length} countries that satisfy the search criteria</p>
         {searchTerm !== "" && (
           <p className="textCountCountryFinds">{filteredData.length} countries satisfied the search criteria</p>
