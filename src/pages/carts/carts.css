@@ -1,0 +1,89 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: normal;
+}
+.countries-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.header {
+  text-align: center;
+}
+
+input {
+  margin: 15px 0;
+}
+
+.Bars {
+  display: grid;
+  grid-template-columns: 10% 60% 15%;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  gap: 20px;
+}
+
+.graph-wrapper {
+  text-align: center;
+}
+
+.graph-buttons button {
+  margin: 0 10px;
+}
+
+.country_flag img {
+  width: 250px;
+}
+
+.country {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 25rem;
+  min-width: 25rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.country_name {
+  color: orange;
+}
+
+span {
+  font-weight: 700;
+}
+
+.graph-buttons button {
+  background-color: orange;
+  border: none;
+  color: #333;
+  height: 3rem;
+  margin: auto 0.5rem;
+  outline: none;
+  width: 12rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.graph-wrapper {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+.graph-title {
+  font-weight: 700;
+}
+
+.inputSearch {
+  height: 3rem;
+  width: 50%;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #f8e7e7;
+  padding: 0 1rem;
+}
